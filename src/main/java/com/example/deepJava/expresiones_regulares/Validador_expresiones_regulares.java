@@ -23,6 +23,9 @@ public class Validador_expresiones_regulares {
         System.out.println(validateNotSpecialCharactersField21("/INVALID"));
         System.out.println(validateNotSpecialCharactersField21("INV//ALID"));
         System.out.println(validateNotSpecialCharactersField21("INVALID/"));
+        System.out.println("----------------------------------------------------");
+        System.out.println(validateSpecialCharactersField20_21("INV//ALID"));
+        System.out.println(validateSpecialCharactersField20_21("INVALID/"));
 
     }
     public static boolean validateNotSpecialCharactersField20(String field20) {
@@ -30,5 +33,12 @@ public class Validador_expresiones_regulares {
     }
     public static boolean validateNotSpecialCharactersField21(String field21) {
         return field21.matches("^(?!\\/)(?:(?!\\/\\/).)*(?<!\\/)$");
+    }
+
+    //Refactor mode
+
+    private static final String PREGEX = "^(?!\\/)(?:(?!\\/\\/).)*(?<!\\/)$";
+    private static boolean validateSpecialCharactersField20_21(String field){
+        return field.matches(PREGEX);
     }
 }

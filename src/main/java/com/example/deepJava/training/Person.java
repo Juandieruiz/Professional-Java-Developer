@@ -7,8 +7,17 @@ public class Person {
     int age;
     char gender;
 
+    public Person() {
+
+    }
+    public Person(String n, int a, char g) {
+        this.name = n;
+        this.age = a;
+        this.gender = g;
+    }
+
     void workInWith(Person p) {
-        System.out.println(name+ " Esta jugando con "+p.name);
+        System.out.println(name+ " Esta trabajando con "+p.name);
     }
     // Methods
     void printInformation(){
@@ -18,16 +27,14 @@ public class Person {
     }
 
     public static void main(String args[]){
-        Person p = new Person();
-        p.name="Martina";
-        p.age=41;
-        p.gender='M';
+        Person p = new Person("Alex",32,'M');
         p.printInformation();
 
         Person p1 = new Person();
         p1.name="Maria";
         p1.age=41;
         p1.gender='M';
+        p1.printInformation();
         p.workInWith(p1);
     }
 }

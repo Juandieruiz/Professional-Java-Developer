@@ -8,9 +8,10 @@ public class Person {
     char gender;
 
     public Person() {
-
+        System.out.println("Constructor por defecto");
     }
     public Person(String n, int a, char g) {
+        this(); // Invocacion de constructor por defecto
         this.name = n;
         this.age = a;
         this.gender = g;
@@ -30,10 +31,7 @@ public class Person {
         Person p = new Person("Alex",32,'M');
         p.printInformation();
 
-        Person p1 = new Person();
-        p1.name="Maria";
-        p1.age=41;
-        p1.gender='M';
+        Person p1 = new Person("Maria",41,'M');
         p1.printInformation();
         p.workInWith(p1);
     }

@@ -3,6 +3,10 @@ package com.example.deepJava.herencia;
 public class BankAccount {
     int numberAccount;
     String idCountry;
+    public BankAccount(int numberAccount, String idCountry) {
+        this.numberAccount = numberAccount;
+        this.idCountry = idCountry;
+    }
 
     void informationAccount() {
         System.out.println("The account number is: " + numberAccount);
@@ -13,6 +17,6 @@ public class BankAccount {
     }
 
     void transaction() {
-        System.out.println("Making a transaction...");
+        System.out.println("Making a transaction..."+numberAccount);
     }
 }

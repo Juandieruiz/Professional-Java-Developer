@@ -17,6 +17,6 @@ public class BankAccount {
     }
 
     void transaction() {
-        System.out.println("Making a transaction to: "+numberAccount);
+        System.out.println("Making a transaction from BANKACCOUNT with number: "+numberAccount);
     }
 }

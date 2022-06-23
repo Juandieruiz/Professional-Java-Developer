@@ -3,11 +3,12 @@ package com.example.deepJava.herencia;
 public class DataUser extends User{
     float salary;
 
-    DataUser(String name, int numberAccount, String idCountry) {
+    DataUser(Float salary,String name, int numberAccount, String idCountry) {
         super(name, numberAccount, idCountry);
+        this.salary = salary;
     }
 
-    void work(){
+    void working(){
         System.out.println("I'm "+ name +" and I working");
     }
 

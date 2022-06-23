@@ -1,4 +1,4 @@
-package com.example.deepJava.herencia;
+package com.example.deepJava.training;
 
 public class MascotaMethods {
 

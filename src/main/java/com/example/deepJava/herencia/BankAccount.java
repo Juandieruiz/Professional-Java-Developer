@@ -2,14 +2,14 @@ package com.example.deepJava.herencia;
 
 public class BankAccount {
     int numberAccount;
-    String owner;
+    String idCountry;
 
     void informationAccount() {
         System.out.println("The account number is: " + numberAccount);
     }
 
-    void owner(int amount) {
-        System.out.println("The owner is: " + owner);
+    void idCountry() {
+        System.out.println("The ID country is: " + idCountry);
     }
 
     void transaction() {

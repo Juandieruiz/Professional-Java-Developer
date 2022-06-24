@@ -18,6 +18,6 @@ class Test{
 public class ExamplePrivate {
     public static void main(String[] args) {
         Test t = new Test();
-        t.foo();
+        //t.foo(); //No funciona porque foo() es private
     }
 }

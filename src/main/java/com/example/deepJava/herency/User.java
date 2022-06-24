@@ -1,4 +1,4 @@
-package com.example.deepJava.herencia;
+package com.example.deepJava.herency;
 
 public class User extends BankAccount {
     String name;

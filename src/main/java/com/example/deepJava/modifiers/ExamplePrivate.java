@@ -1,4 +1,4 @@
-package com.example.deepJava.modificadores;
+package com.example.deepJava.modifiers;
 
 // Nos servirá para el patrón de diseño Singleton (Singleton Pattern)
 

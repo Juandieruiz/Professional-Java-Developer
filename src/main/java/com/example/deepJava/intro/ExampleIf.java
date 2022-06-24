@@ -1,6 +1,6 @@
 package com.example.deepJava.intro;
 
-public class EjemploIf {
+public class ExampleIf {
     public static void main(String[] args) {
        int SRM = 10;
 

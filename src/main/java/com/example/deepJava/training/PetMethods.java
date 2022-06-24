@@ -1,6 +1,6 @@
 package com.example.deepJava.training;
 
-public class MascotaMethods {
+public class PetMethods {
 
     public class Animal{
         String name;

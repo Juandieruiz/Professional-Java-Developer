@@ -1,6 +1,6 @@
-package com.example.deepJava.modificadores.package2;
+package com.example.deepJava.modifiers.package2;
 
-import com.example.deepJava.modificadores.package1.ExampleProtected;
+import com.example.deepJava.modifiers.package1.ExampleProtected;
 
 public class TestExampleProtected extends ExampleProtected {
 

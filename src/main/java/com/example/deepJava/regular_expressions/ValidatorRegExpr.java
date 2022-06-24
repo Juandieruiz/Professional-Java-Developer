@@ -1,6 +1,6 @@
-package com.example.deepJava.expresiones_regulares;
+package com.example.deepJava.regular_expressions;
 
-public class Validador_expresiones_regulares {
+public class ValidatorRegExpr {
 
    /*public static void main(String[] args) {
         System.out.println(validateNotSpecialCharactersField20("válid1")); // true

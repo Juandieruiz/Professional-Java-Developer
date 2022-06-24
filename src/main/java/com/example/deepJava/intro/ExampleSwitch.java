@@ -1,6 +1,6 @@
 package com.example.deepJava.intro;
 
-public class EjemploSwitch {
+public class ExampleSwitch {
     public static void main(String[] args) {
         int optionPayment = 1;
 

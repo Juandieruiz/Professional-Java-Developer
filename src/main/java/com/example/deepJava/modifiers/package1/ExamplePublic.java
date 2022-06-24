@@ -1,4 +1,4 @@
-package com.example.deepJava.modificadores.package1;
+package com.example.deepJava.modifiers.package1;
 
 public class ExamplePublic {
     public void foo() {

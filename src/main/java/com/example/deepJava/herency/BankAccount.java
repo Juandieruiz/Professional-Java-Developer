@@ -1,4 +1,4 @@
-package com.example.deepJava.herencia;
+package com.example.deepJava.herency;
 
 public class BankAccount {
     int numberAccount;

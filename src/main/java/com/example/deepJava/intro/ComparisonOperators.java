@@ -1,6 +1,6 @@
 package com.example.deepJava.intro;
 
-public class OperadosDeComparacion {
+public class ComparisonOperators {
     public static void main(String[] args) {
         double sueldo1= 18000.0;
         double sueldo2= 14000.0;

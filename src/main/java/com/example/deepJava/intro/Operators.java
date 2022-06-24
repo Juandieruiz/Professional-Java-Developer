@@ -1,6 +1,6 @@
 package com.example.deepJava.intro;
 
-public class Operadores {
+public class Operators {
     public static void main(String[] args) {
         int suma = 1 + 2;
         int resta = 1 - 2;

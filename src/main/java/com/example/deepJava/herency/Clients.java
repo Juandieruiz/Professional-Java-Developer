@@ -1,4 +1,4 @@
-package com.example.deepJava.herencia;
+package com.example.deepJava.herency;
 
 public class Clients {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.example.deepJava.polymorphism.figures;
 
-public class Figure {
+public abstract class Figure {
     private String color;
 
     public Figure(String color) {
@@ -15,8 +15,5 @@ public class Figure {
         this.color = color;
     }
 
-    public double calcArea() {
-        System.out.println("default implementation");
-        return 0;
-    }
+    public abstract double calcArea();
 }

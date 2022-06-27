@@ -12,5 +12,9 @@ public class Circle extends Figure{
         return Math.PI * Math.pow(radius, 2);
     }
 
+    void rode() {
+        System.out.println("Circle "+ getColor() +" is a round figure");
+    }
+
 
 }

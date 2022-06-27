@@ -16,6 +16,7 @@ public class Figure {
     }
 
     public double calcArea() {
+        System.out.println("default implementation");
         return 0;
     }
 }

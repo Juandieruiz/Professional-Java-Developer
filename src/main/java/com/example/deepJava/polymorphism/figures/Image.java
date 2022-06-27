@@ -8,7 +8,6 @@ package com.example.deepJava.polymorphism.figures;
  * @author juandieruiz
  */
 public class Image implements Drawable {
- º
 
     @Override
     public void draw() {

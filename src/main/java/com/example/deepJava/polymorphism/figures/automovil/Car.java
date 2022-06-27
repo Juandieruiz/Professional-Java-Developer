@@ -1,4 +1,4 @@
-package com.example.deepJava.training.automovil;
+package com.example.deepJava.polymorphism.figures.automovil;
 
 public class Car {
     String modelo;

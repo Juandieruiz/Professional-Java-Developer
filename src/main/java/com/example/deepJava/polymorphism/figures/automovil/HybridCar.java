@@ -1,4 +1,4 @@
-package com.example.deepJava.training.automovil;
+package com.example.deepJava.polymorphism.figures.automovil;
 
 public class HybridCar extends Car{
     String Battery;

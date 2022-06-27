@@ -1,6 +1,6 @@
 package com.example.deepJava.polymorphism.figures;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure implements Drawable {
     private double base;
     private double height;
 
@@ -12,5 +12,10 @@ public class Rectangle extends Figure{
 
     public double calcArea() {
         return base*height;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("drawing a rectangle");
     }
 }

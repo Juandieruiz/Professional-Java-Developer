@@ -1,5 +1,8 @@
 package com.example.deepJava.polymorphism.figures;
-
+/**
+ *
+ * @author juandieruiz
+ */
 public abstract class Figure {
     private String color;
 

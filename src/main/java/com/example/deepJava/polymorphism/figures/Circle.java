@@ -1,6 +1,6 @@
 package com.example.deepJava.polymorphism.figures;
 
-public class Circle extends Figure{
+public class Circle extends Figure implements Drawable {
     private double radius;
 
     public Circle(String color, double radius) {
@@ -17,4 +17,8 @@ public class Circle extends Figure{
     }
 
 
+    @Override
+    public void draw() {
+        System.out.println("drawing a circle");
+    }
 }

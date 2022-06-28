@@ -10,5 +10,19 @@ public class TestArrays {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+        int i= 0;
+        while (i < array.length) {
+            System.out.println(array[i]);
+            i++;
+        }
+        for(int temp:array){
+            System.out.println(temp);
+        }
+
+        for (int j = 0; j < array.length ; j++) {
+            System.out.println(array[j]);
+        }
+
+
     }
 }

@@ -58,11 +58,10 @@ class Ordenador{
 
 public class ObjectArrays {
     public static void main(String[] args) {
-        Ordenador pedido[] = new Ordenador[4];
-        pedido[0] = new Ordenador("Asus", 1000, 8, 8, true);
-        pedido[1] = new Ordenador("Asus", 1200, 12, 12, true);
-        pedido[2] = new Ordenador("Dell", 800, 8, 4, false);
-        pedido[3] = new Ordenador("Apple", 2250, 16, 12, true);
+        Ordenador pedido[] = new Ordenador[]{new Ordenador("Asus", 1000, 8, 8, true),
+                    new Ordenador("Asus", 1200, 12, 12, true),
+                    new Ordenador("Dell", 800, 8, 4, false),
+                    new Ordenador("Apple", 2250, 16, 12, true)};
         float cuenta = 0.0f;
 
         for (Ordenador pc : pedido) {

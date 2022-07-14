@@ -1,16 +1,28 @@
 package com.example.deepJava.exceptions;
 
 public class ExampleThrow {
+    /**
+     * Manejar excepciones será una de dos cosas:
+     * - Atrapar la excepcion que se produce en el metodo (try catch)
+     * - Propagar a quien invoco el metodo la excepcion (throw)
+     * @throws Exception
+     *
+     */
+    static double dividir(int a, int b) throws Exception {
 
-    static double dividir(int a, int b) {
+
         if (b != 0) {
             return a / b;
         } else {
-            throw new IllegalArgumentException("No se puede dividir por cero");
+            try {
+                throw new Exception("No se puede dividir por cero");
+            } catch (Exception e) {
+                System.out.println("ERROR: " + e.getMessage());
+            }
+            return 0;
         }
-
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         double result = dividir(1000, 7);
         System.out.println("El resultado es : " + result);
         double result2 = dividir(10, 0);

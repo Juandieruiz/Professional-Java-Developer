@@ -14,19 +14,22 @@ public class ExampleThrow {
         if (b != 0) {
             return a / b;
         } else {
-            try {
                 throw new Exception("No se puede dividir por cero");
-            } catch (Exception e) {
-                System.out.println("ERROR: " + e.getMessage());
-            }
-            return 0;
         }
     }
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
+        double resultado = 0;
+        try {
+            resultado = dividir(10, 0);
+        } catch (Exception e) {
+            System.out.println("ERROR: " + e.getMessage());
+        }
+        /*
         double result = dividir(1000, 7);
         System.out.println("El resultado es : " + result);
         double result2 = dividir(10, 0);
         System.out.println(result2);
+        */
 
     }
 

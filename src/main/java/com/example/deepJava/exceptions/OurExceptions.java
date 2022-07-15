@@ -23,7 +23,7 @@ public class OurExceptions {
     }
     public static void main(String[] args) {
         try {
-            createTransaction("COMOSERPROaGRAMADOR.COM");
+            createTransaction("COMOSERPROaGRAMADOR.COM"); // Deben ser en mayusculas para que salga correcto
         } catch(ProfileIdIncorrectException e) {
             System.out.println("ERROR :" + e.getMessage());
         }

@@ -21,10 +21,14 @@ class Counter implements Runnable {
 }
 
 public class JuandieruizCounter {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new Counter(10), "Hilo 1");
         thread.start();
         Thread thread2 = new Thread(new Counter(20), "Hilo 2");
         thread2.start();
+        System.out.println("Iniciazion de Hilos");
+        thread.join();
+        thread2.join();
+        System.out.println("Fin del programa");
     }
 }

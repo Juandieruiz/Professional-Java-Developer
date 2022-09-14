@@ -22,7 +22,7 @@ public class ClientSocket {
             do {
                 message = readMessage();
                 test.writeUTF(message);
-            } while (!"salir".equals(message));
+            } while (!"finish".equals(message));
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.example.deepJava.sockets.basic;
+package com.example.deepJava.sockets.simple;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
